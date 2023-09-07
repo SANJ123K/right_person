@@ -36,6 +36,6 @@ function typeWriter() {
     else
       document.getElementById("text1").innerHTML += txt1.charAt(i);
     i++;
-    setTimeout(typeWriter, 5);
+    setTimeout(typeWriter, speed);
   }
 }
